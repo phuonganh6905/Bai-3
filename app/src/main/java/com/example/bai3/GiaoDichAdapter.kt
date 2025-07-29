@@ -44,7 +44,6 @@ class GiaoDichAdapter(private val danhSachGiaoDich: List<GiaoDich>) :
             else Color.RED
         )
 
-        // Gán hình ảnh danh mục phù hợp
         val iconId = when (giaoDich.danhMuc) {
             "Ăn uống" -> R.drawable.ic_an_uong
             "Di chuyển" -> R.drawable.ic_di_chuyen
